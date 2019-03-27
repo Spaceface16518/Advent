@@ -8,7 +8,7 @@ if __name__ == '__main__':
     story_doc = yaml.safe_load(file)  # Parse file into YAML
     index = 0  # The index of the current question
     while True:
-        question = dict(story_doc[index])  # The actual current question
+        question = dict(story_doc[index])  # The current question object
         print(str(question['question']))  # Print the question
         try:
             answers = dict(question['answers'])  # If there are answers, build them into a dictionary
