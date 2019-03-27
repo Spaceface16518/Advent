@@ -1,0 +1,14 @@
+---
+- question: This is the first question
+  answers:
+    y: 2
+    n: 3
+
+- question: You answered yes to the first question. Do you feel accomplished now?
+  answers:
+    y: 4
+    n: 3
+
+- question: Why would you answer no. Just skip to the end. I'm done with you.
+
+- question: Yay you answered yes. The end!
